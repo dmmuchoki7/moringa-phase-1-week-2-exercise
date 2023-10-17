@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "name": "Levi's Jeans",
+      "color": "Black",
+      "price": 1500,
+      "qty": 500,
+      "image": "https://images.unsplash.com/photo-1560076620-65ad7b2318e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2188&q=80"
+    },
+    {
+      "name": "Drew T-Shirts",
+      "color": "White",
+      "price": 600,
+      "qty": 200,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80"
+
+    },
+    {
+      "name": "Cargo Pant",
+      "color": "Khaki",
+      "price": 1200,
+      "qty": 100,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80"
+
+    },
+    {
+      "name": "Airmax Nike",
+      "color": "Black",
+      "price": 5000,
+      "qty": 30,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80"
+
+    }
+  ]
+}
