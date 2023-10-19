@@ -41,3 +41,12 @@ function displayItems(items){
         `
     }
 }
+
+
+// document.querySelector("#frm").addEventListener("submit", function(event){
+//     event.preventDefault();
+//     const frm = new FormData(this)
+
+
+//     console.log(frm.get("email"), frm.get("password"))
+// })
