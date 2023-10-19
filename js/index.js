@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     getItems()
 })
 
-function getItems(){
+async function getItems(){
     fetch("http://localhost:3000/items")
     .then(response => response.json())
     .then(data => {
@@ -30,10 +30,10 @@ function displayItems(items){
                  <li>Price: ${item.price}</li>
                 </ul>
                 </span>
-                <form>
+                <form class="w-100">
                     <label>QTY</label>
                     <input type="number" min="1" value="1"/>
-                    <button class="btn btn-primary btn-block m-2 btn-lg">Add to cart</button>
+                    <button class="mx-auto w-100 btn btn-primary m-2">Add to cart</button>
                 </form>
                 </div>
             </div>
