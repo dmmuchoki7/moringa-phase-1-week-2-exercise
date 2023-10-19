@@ -57,6 +57,7 @@ function addToCart(event, id){
 function displayItemsToCart(items){
     document.querySelector("#cart_body").innerHTML = ""
     cart.forEach((item)=> {
+        //plus(+) below is used to add all array elements fetched into the table hence prevent the iteration from displaying only the last element
         document.querySelector("#cart_body").innerHTML +=`
         <tr>
             <td>${item.id}</td>
