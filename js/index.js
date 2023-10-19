@@ -1,18 +1,14 @@
 let items = [];
-document.addEventListener("DOMContentLoaded", function(){
-    getItems()
+document.addEventListener("DOMContentLoaded", async function(){
+   const response = await getItems()
+   displayItems(response)
 })
 
-async function getItems(){
-    fetch("http://localhost:3000/items")
+ function getItems(){
+    return fetch("http://localhost:3000/items")
     .then(response => response.json())
-    .then(data => {
-        items = [...data]
-        displayItems(data)
-    })
+    .then(data => data)
 }
-
-
 
 function displayItems(items){
     const itemContainer = document.querySelector("#items");
